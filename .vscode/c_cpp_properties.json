@@ -10,6 +10,8 @@
             "includePath": [
                 "f:/Programming/MCU/ESP32/Project/PlatformIO/S2/quadruped_robot_RX/include",
                 "f:/Programming/MCU/ESP32/Project/PlatformIO/S2/quadruped_robot_RX/src",
+                "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
+                "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s2/include/newlib/platform_include",
                 "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s2/include/freertos/include",
                 "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s2/include/freertos/include/esp_additions/freertos",
@@ -217,10 +219,8 @@
                 "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/libraries/USB/src",
                 "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
                 "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
-                "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                 "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
-                "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                 ""
             ],
             "browse": {
@@ -228,6 +228,8 @@
                 "path": [
                     "f:/Programming/MCU/ESP32/Project/PlatformIO/S2/quadruped_robot_RX/include",
                     "f:/Programming/MCU/ESP32/Project/PlatformIO/S2/quadruped_robot_RX/src",
+                    "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
+                    "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s2/include/newlib/platform_include",
                     "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s2/include/freertos/include",
                     "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s2/include/freertos/include/esp_additions/freertos",
@@ -435,10 +437,8 @@
                     "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/libraries/USB/src",
                     "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
                     "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
-                    "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                     "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
-                    "C:/Users/John Fu/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                     ""
                 ]
             },
