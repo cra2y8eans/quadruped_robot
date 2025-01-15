@@ -94,12 +94,12 @@ void OnDataRecv(const uint8_t* mac, const uint8_t* incomingData, int len) {
 
 void dataSend() {
   BatReading::Bat batteryStatus = battery.read(avg_time);
-  robot.position[0]      = leg_L1.getCurrentPosition();
-  robot.position[1]      = leg_L2.getCurrentPosition();
-  robot.position[2]      = leg_R1.getCurrentPosition();
-  robot.position[3]      = leg_R2.getCurrentPosition();
-  robot.batteryStatus[0] = batteryStatus.voltage;
-  robot.batteryStatus[1] = batteryStatus.voltsPercentage;
+  robot.position[0]             = leg_L1.getCurrentPosition();
+  robot.position[1]             = leg_L2.getCurrentPosition();
+  robot.position[2]             = leg_R1.getCurrentPosition();
+  robot.position[3]             = leg_R2.getCurrentPosition();
+  robot.batteryStatus[0]        = batteryStatus.voltage;
+  robot.batteryStatus[1]        = batteryStatus.voltsPercentage;
   // 发送
   esp_now_send(controlPadAddress, (uint8_t*)&robot, sizeof(robot));
 }
@@ -116,6 +116,9 @@ void standup() {
   leg_L2.moving(255, L2_stand_val);
   leg_R1.moving(255, R1_stand_val);
   leg_R2.moving(255, R2_stand_val);
+}
+
+void walk() {
 }
 
 void setup() {
@@ -136,5 +139,8 @@ void setup() {
 }
 
 void loop() {
-  standup();
+  leg_L2.moving(200, 200);
+  delay(1000);
+  leg_L2.moving(200, 127);
+  delay(1000);
 }
